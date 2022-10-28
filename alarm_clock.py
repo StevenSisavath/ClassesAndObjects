@@ -10,12 +10,12 @@ class AlarmClock :
         self.current_time = input('What is the current time?')
         print(self.current_time)
 
-    def set_alarm_on_or_off(self):
-        self.toggle = input('Toggle alarm on or off?')
-        if self.toggle == 'on':
+    def set_alarm_on_or_off(self): #seguestion use not
+        toggle = input('Toggle alarm on or off?')
+        if toggle == 'on':
             self.alarm_is_on = True
             self.toggle_result = 'Alarm is ON'
-        elif self.toggle == 'off':
+        elif toggle == 'off':
             self.alarm_is_on = False
             self.toggle_result = 'Alarm is OFF'
         else:
