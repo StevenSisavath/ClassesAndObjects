@@ -9,4 +9,4 @@ class ShoppingCart:
         return len(self.list_of_products)
 
     def remove_all_products_in_list(self):
-        self.list_of_products = self.list_of_products.clear()
+        self.list_of_products.clear()

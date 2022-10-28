@@ -9,5 +9,5 @@ class Customer:
         self.shopping_cart.add_product_to_list(product_to_add)
     
     def view_shopping_cart_items(self):
-        for item in ShoppingCart.list_of_products():
-            print(item)
+        for self.item in self.shopping_cart.list_of_products: #ShoppingCart.list_of_products():
+            print(self.item)
