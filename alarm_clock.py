@@ -20,7 +20,7 @@ class AlarmClock :
             self.toggle_result = 'Alarm is OFF'
         else:
             self.alarm_is_on = False
-            self.toggle_result = 'Alarm is OFF'
+            self.toggle_result = 'on or off was not entered. Alarm is OFF'
 
     def set_alarm_time(self):
         self.alarm_time = input('What time would you like to set your alarm to?')
